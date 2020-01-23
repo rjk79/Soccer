@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>Sept Project</title>
+    
+    <link rel="stylesheet" type="text/css" href="/static/application.css">
+
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+
+<body>
+    <!-- <h1>Bouncabounce</h1> -->
+    <div class="player-info">
+        <div class="player1-info">
+            <div >Player 1</div>
+            <div class="player1-score">0</div>
+        </div>
+        <div class="player2-info">
+            <div>Player 2</div>
+            <div class="player2-score">0</div>
+        </div>
+    </div>
+    <canvas id="canvas"></canvas>
+
+    <button class="new-game-button">New Game</button>
+    <button class="toggle-goals-button">Change Goals</button>
+    <div class="winner-display"></div>
+    <div>
+        <p class="controls-title">Controls:</p>
+        A / D = Left / Right<br>
+        Space = Jump<br>
+        J / L = Kick Left / Kick Right<br>
+    </div>
+
+</body>
+<script src="/static/game.js"></script>
+
+</html>

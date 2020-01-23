@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+canvas {
+    width: 800px;
+    height: 600px;
+    border: 5px solid black;
+}
+
+.player-info {
+    top: 10%;
+    position: absolute;
+    display: flex;
+    font-size: 42px;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.player1-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+}
+
+.player2-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+}
+
+.new-game-button {
+    height: 42px;
+    width: 100px;
+}
+.winner-display {
+    height: 42px;
+}
+.controls-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+.toggle-goals-button {
+    height: 42px;
+    width: 100px;
+    display: none;
+}
