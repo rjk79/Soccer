@@ -34,18 +34,32 @@ canvas {
 }
 
 .new-game-button {
-    height: 42px;
-    width: 100px;
+    height: 60px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 5px;
 }
 .winner-display {
     height: 42px;
 }
-.controls-title {
-    font-size: 20px;
-    font-weight: 700;
-}
+
 .toggle-goals-button {
     height: 42px;
     width: 100px;
     display: none;
+}
+.controls {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 3%;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.controls-title {
+    font-size: 32px;
+    font-weight: 700;
 }
