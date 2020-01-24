@@ -1,0 +1,4 @@
+
+npm install --save express socket.io
+
+node server.js
