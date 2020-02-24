@@ -4,4 +4,4 @@ A real-time, multiplayer soccer game created using Express, Socket.IO, and Vanil
 
 [Live Site](http://soccer-rjk.herokuapp.com/)
 
-
+![gif](soccer.gif)
